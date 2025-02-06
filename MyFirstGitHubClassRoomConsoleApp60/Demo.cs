@@ -11,5 +11,12 @@ namespace MyFirstGitHubClassRoomConsoleApp60
         public string Name { get; set; }
         public string Email { get; set; }
         public string Description { get; set; }
+
+        public Demo(string name, string email, string description)
+        {
+            Name = name;
+            Email = email;
+            Description = description;
+        }
     }
 }
